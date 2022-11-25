@@ -1,0 +1,29 @@
+.cim{
+    text-align: center;
+}
+.fosor{
+    height: 70px;
+}
+table, th, td, tr{
+    border: 1px solid dimgray;
+    border-collapse: collapse;
+    padding: 5px;
+}
+.fosor{
+    width: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: cadetblue;
+}
+.kisnev{
+    text-align: left;
+}
+.cim{
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+tr:nth-child(even) {
+    background-color: gray;
+  }
+

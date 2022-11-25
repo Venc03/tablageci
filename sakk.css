@@ -1,0 +1,25 @@
+th{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+td{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+}
+tr:nth-child(odd) td:nth-child(even){
+    background-color: dimgray;
+}
+tr:nth-child(even) td:nth-child(odd){
+    background-color: dimgray;
+  }
+.kiralyno{
+    font-size: 40px;
+    color: white;
+}
